@@ -26,20 +26,14 @@
             "field":"2019",
             "type": "quantitative",
             "scale": {
-                "domain":[40,50],
-        "range": [
-          "#d73027",
-          "#fc8d59",
-          "#ffffbf",
-          "#e0f3f8",
-          "#91bfdb",
-          "#4575b4"
-        ]
-        },
+                "domain":[40,50]
+                
+                  }
+            },
+    
         "tooltip":[
-            {"field": "State", "type": "nominal", "format": ","},
+            {"field": "properties.STATE_NAME", "type": "nominal", "title": "State"},
             {"field":"2019","type": "quantitative", "title":"Percentage proportion"}
             ]
         }
-    }
-}
+ }
